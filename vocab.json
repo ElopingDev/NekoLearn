@@ -1,7 +1,8 @@
 [
   {
-    "term": "test",
-    "translation": "test",
-    "example": "test"
+    "term": "sdfsdf",
+    "definition": "dsfsdf",
+    "example": "sdfdsfds",
+    "known": true
   }
 ]
