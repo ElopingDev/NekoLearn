@@ -27,4 +27,9 @@ lightweight, offline, and fully yours.
 
 ---
 
+### 👀Preview
+<img width="902" height="632" alt="image" src="https://github.com/user-attachments/assets/88ed6d9a-9316-40b2-bc0f-475c77d0d510" />
+
+---
+
 > *“Learn, build, and grow, one word at a time.”*
