@@ -32,7 +32,8 @@ lightweight, offline, and fully yours.
 
 ---
 
--- 
+---
+
 ### ⚙ How to Install
 # 1. Clone or download this repository
 git clone https://github.com/yourusername/NekoLearn.git
@@ -43,4 +44,7 @@ pip install customtkinter
 
 # 3. Run the app
 python app.py
+
+---
+
 > *“Learn, build, and grow, one word at a time.”*
