@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/97f67b3c-e4d0-4110-a885-6192fce0e662" />
+
 # 🐱 NekoLearn — Personal Language Learning Companion
 
 **NekoLearn** is a terminal-based vocabulary companion designed to evolve into a full learning environment for language learners.  
