@@ -32,18 +32,17 @@ lightweight, offline, and fully yours.
 
 ---
 
----
 
 ### ⚙ How to Install
 # 1. Clone or download this repository
-git clone https://github.com/yourusername/NekoLearn.git
-cd NekoLearn
+```git clone https://github.com/yourusername/NekoLearn.git```
+```cd NekoLearn```
 
 # 2. Install dependencies
-pip install customtkinter
+```pip install customtkinter```
 
 # 3. Run the app
-python app.py
+```python app.py```
 
 ---
 
