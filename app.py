@@ -85,6 +85,15 @@ def toggle_known(index):
     save_vocab()
     render_list()
 
+def delete_word(index):
+    # remove a word by index, save and refresh list
+    try:
+        del words[index]
+        save_vocab()
+        render_list()
+    except Exception:
+        pass
+
 words = load_vocab()
 
 def on_add():
@@ -175,14 +184,30 @@ def render_list():
                 anchor="w", padx=12, pady=(0, 8)
             )
 
-        # known / unknown button 
+        # action buttons: delete (left) and known/unknown (right)
+        btn_frame = ctk.CTkFrame(row, fg_color="#2f2236", corner_radius=0)
+        btn_frame.pack(anchor="e", padx=10, pady=(0, 10))
+
+        # delete button
+        ctk.CTkButton(
+            btn_frame,
+            text="Delete",
+            fg_color="#E74C3C",
+            hover_color="#C0392B",
+            text_color="white",
+            width=80,
+            height=28,
+            corner_radius=6,
+            command=lambda idx=i-1: delete_word(idx)
+        ).pack(side="left", padx=(0,6))
+
         known_state = w.get("known", False)
         color = "#38C172" if known_state else "#E74C3C"
         hover = "#2E8B57" if known_state else "#C0392B"
         text = "Known" if known_state else "Unknown"
 
         ctk.CTkButton(
-            row,
+            btn_frame,
             text=text,
             fg_color=color,
             hover_color=hover,
@@ -190,8 +215,8 @@ def render_list():
             width=80,
             height=28,
             corner_radius=6,
-            command=lambda idx=i-1: toggle_known(idx) #? capture index
-        ).pack(anchor="e", padx=10, pady=(0, 10))
+            command=lambda idx=i-1: toggle_known(idx)
+        ).pack(side="left")
 
 render_list()
 addWordButton.configure(command=on_add)
