@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "term": "sdfsd",
+    "definition": "fsdfsd",
+    "example": "fdsf",
+    "known": false,
+    "added": "2025-11-16T23:25:05.995375"
+  },
+  {
+    "term": "sdf",
+    "definition": "sdfsdf",
+    "example": "sfs",
+    "known": false,
+    "added": "2025-11-16T23:26:11.501997"
+  },
+  {
+    "term": "sdfsdf",
+    "definition": "sdfsdf",
+    "example": "fsd",
+    "known": false,
+    "added": "2025-11-16T23:27:00.449937"
+  },
+  {
+    "term": "dsdf",
+    "definition": "sdfdsf",
+    "example": "sdfsdf",
+    "known": false,
+    "added": "2025-11-16T23:27:17.190383"
+  },
+  {
+    "term": "sdfsd",
+    "definition": "fdsfsdf",
+    "example": "sdf",
+    "known": false,
+    "added": "2025-11-16T23:29:16.921000"
+  },
+  {
+    "term": "sdfdsf",
+    "definition": "sdfsdf",
+    "example": "dsfsf",
+    "known": false,
+    "added": "2025-11-16T23:32:37.000385"
+  }
+]
